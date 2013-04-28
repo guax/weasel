@@ -27,9 +27,9 @@ Interesting Stuff
 Two things caught my attention on playing with this algorithm. The first
 one is the incredibly low number of generations necessary to get to the
 desired string. At first I forgot to breed the next generation with
-the fittest actually creating a very small chance of getting the right
-string. Those big numbers increased my surprise when I fixed the bug
-and a lot of times fewer then 50 generations became enough to
+the fittest creating a very small chance of getting the right string.
+Those big numbers increased my surprise when I fixed the bug
+and in a lot of times fewer then 50 generations where enough to
 get the desired result.
 
 The second thing that caught my attention was the fact that characters
@@ -40,12 +40,10 @@ changing the mutation chance alters drastically the outcome.
 Chance of Mutation
 ------------------
 
-Playing with the variables I found that exists a threshold when
-the mutation helps you to get to the desired output. Any lower
+Playing with the variables I found the existance of a threshold when
+the mutation helps you to get to the desired output faster. Any lower
 or higher will turn the mutations not fast enough or too destructive
-to achieve any result.
-
-As you increase the chance of mutation more generations are needed because
-a lot of "reverse" evolution happens, there is a threshold. That remembered me of a
+to achieve any result. As you increase the chance of mutation more generations
+are needed because a lot of "reverse" evolution happens. That remembered me of a
 [TEDx talk](http://www.youtube.com/watch?v=BBao3D6sBto) I saw last year
 that presents this threshold as one of the factors that allow life to thrive.
