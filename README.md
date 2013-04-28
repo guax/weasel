@@ -1,7 +1,7 @@
 Dawkins Weasel
 ==============
 
-This program is an implementation of the Richard Dawkins _weasel_ program.
+This program is an implementation of the [Richard Dawkins _weasel_ program](http://en.wikipedia.org/wiki/Weasel_program).
 
 It is designed to simulate selection of the fittest using strings. Its
 algorithm is quite simple and pretty nice to see working.
@@ -45,6 +45,7 @@ or higher will turn the mutations not fast enough or too destructive
 to achieve any result.
 
 As you increase the chance of mutation more generations are needed because
-a lot of "reverse" evolution happens. Later I found a TED talk that
-presents this as one of the lucky factors of life on earth, where
+a lot of "reverse" evolution happens. Later I remembered and found a
+[TED talk](http://www.youtube.com/watch?v=BBao3D6sBto) I saw last year
+that presents this as one of the lucky factors of life on earth, where
 the randomness of gene copies is just adequate to sustain evolving life.
